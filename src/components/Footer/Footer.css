@@ -1,0 +1,46 @@
+.footer-c{
+    position: relative;
+    background-color: black;
+}
+.footer-c>hr{
+    border:1px solid var(--lightgray);
+    margin-top: -0.2rem;
+}
+
+.footer{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+}
+.social-n{
+    display: flex;
+    gap:4rem;
+}
+.social-n>img{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+.logo-f>img{
+    width: 20rem;
+
+}
+.foter-b1{
+    bottom:0;
+    right:15%;
+    width: 26rem;
+    height: 12rem;
+    filter: blur(200px);
+    background: red;
+}
+
+@media screen and (max-width:768px) {
+    .logo-f{
+        width: 18rem;
+    }
+    
+}
